@@ -12,13 +12,14 @@ export default function Login() {
         <View style={styles.container}>
 
             <Text style={styles.titulo}>Login</Text>
-
             <TouchableOpacity 
                 style={styles.botao} 
                 onPress={() => navigation.navigate('ListaItens')} 
             >
                 <Text style={styles.textoBtn}>Login</Text>
+                
             </TouchableOpacity>
+            
         </View>
 
     );

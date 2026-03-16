@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fafafa',
         flex: 1,
         padding: 20,
+        
     },
     botao: {
         width: '70%',
