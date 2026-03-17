@@ -5,11 +5,21 @@ import { RFPercentage } from 'react-native-responsive-fontsize';
 const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
-        // justifyContent: 'center', 
+        justifyContent: 'center', 
         backgroundColor: '#fafafa',
         flex: 1,
         padding: 20,
-        
+    },
+    input: {
+        width: '80%',
+        height: 50,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 10,
+        paddingHorizontal: 15,
+        marginBottom: 15,
+        fontSize: RFPercentage(2),
+        backgroundColor: '#fff',
     },
     botao: {
         width: '70%',
@@ -17,7 +27,9 @@ const styles = StyleSheet.create({
         paddingLeft: 15,
         borderWidth: RFPercentage(0.5),
         borderRadius: 20, 
-        marginBottom: 10,
+        marginTop: 20,
+        backgroundColor: '#007AFF',
+        borderColor: '#007AFF',
     },
     titulo: {
         fontSize: RFPercentage(4),
@@ -26,6 +38,8 @@ const styles = StyleSheet.create({
     },
     textoBtn: {
         fontSize: RFPercentage(2),
+        color: '#fff',
+        textAlign: 'center',
     }
 });
 
