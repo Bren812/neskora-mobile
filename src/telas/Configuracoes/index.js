@@ -6,10 +6,10 @@ import styles from './styles';
 
 export default function Configuracoes() {
     const navigation = useNavigation();
-    
+
     // Estado para controlar se notificações estão ativadas
     const [notificacoes, setNotificacoes] = useState(true);
-    
+
     // Estado para controlar se modo escuro está ativado
     const [modoEscuro, setModoEscuro] = useState(false);
 
